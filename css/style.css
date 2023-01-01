@@ -1,0 +1,26 @@
+/* Default height for small devices */
+#intro {
+  height: 600px;
+  /* Margin to fix overlapping fixed navbar */
+  margin-top: 58px;
+  z-index: 2;
+}
+@media (max-width: 991px) {
+  #intro {
+    /* Margin to fix overlapping fixed navbar */
+    margin-top: 45px;
+  }
+}
+
+.background-image {
+  background-image: url("https://alternance.imt.fr/wp-content/uploads/2016/03/Patio-Palaiseau-e1605363026788-1050x500.jpg");
+  background-size: cover;
+  display: block;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  height: 600px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 1;
+}
