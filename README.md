@@ -1,2 +1,0 @@
-# TéléFun is coming soon
-
